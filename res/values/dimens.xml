@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="final_rank_button_margin_left">10dp</dimen>
+    <dimen name="high_score_activity_textsize">40dp</dimen>
+    <dimen name="high_score_activity_textsizesmall">20dp</dimen>
+    <dimen name="high_score_activity_textsizemargin">20dp</dimen>
+    <dimen name="home_activity_live_score">60dp</dimen>
+
+</resources>

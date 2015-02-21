@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/PopupBG"
+    android:isScrollContainer="true"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edittextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewGameOver"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/enter_name"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewGameOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/high_score_activity_textsizemargin"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/game_over"
+        android:textColor="@color/Red"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittextName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="@string/continues" />
+
+    <TextView
+        android:id="@+id/textViewHighScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edittextName"
+        android:gravity="center"
+        android:textColor="@color/txtColorGreen"
+        android:text="@string/high_score"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

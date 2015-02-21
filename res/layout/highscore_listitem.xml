@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/White"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textViewRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/high_score_activity_textsizemargin"
+        android:text="@string/rank"
+        android:textColor="@color/txtColorGreen"
+        android:textSize="@dimen/high_score_activity_textsizesmall"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/high_score_activity_textsizemargin"
+        android:text="@string/score"
+        android:textColor="@color/txtColorGreen"
+        android:textSize="@dimen/high_score_activity_textsizesmall"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/high_score_activity_textsizemargin"
+        android:text="@string/name"
+        android:textColor="@color/txtColorGreen"
+        android:textSize="@dimen/high_score_activity_textsizesmall"
+        android:textStyle="italic" />
+
+</RelativeLayout>

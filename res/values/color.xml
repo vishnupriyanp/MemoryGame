@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="Black">#000000</color>
+    <color name="Red">#FF0000</color>
+    <color name="Dark">#302F31</color>
+    <color name="White">#FFFFFF</color>
+    <color name="LightDark">#3A3A3A</color>
+    <color name="HomeBG">#E54D26</color>
+    <color name="PopupBG">#EBC603</color>
+    <color name="highScore_bar">#37474F</color>
+    <color name="txtColorGreen">#6FA341</color>
+
+</resources>

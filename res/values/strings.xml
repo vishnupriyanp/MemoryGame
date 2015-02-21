@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Colour Memory</string>
+    <string name="high_score">High Score</string>
+    <string name="rank">Rank</string>
+    <string name="score">Score</string>
+    <string name="name">Name</string>
+    <string name="game_over">Game Over</string>
+    <string name="enter_name">Please enter your name</string>
+    <string name="continues">Continue</string>
+    <string name="quitgame">Quit Game</string>
+    <string name="playagain">Play Again</string>
+
+</resources>
